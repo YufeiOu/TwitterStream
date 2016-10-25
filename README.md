@@ -5,11 +5,15 @@ Note: due to the credential issue, we copy the code "without" leaking any passwo
 
 "link_credential1" - "link_credential5"
 
-to correct key of yourself or contact YufeiOu.
+to correct keys of yourself or contact YufeiOu.
 
-Run command: python manage.py runserver
+Run command:
 
-If it is in AWS, then: python manage.py runserver 0.0.0.0:8000
+  python manage.py runserver
+
+If it is in AWS, then:
+
+  python manage.py runserver 0.0.0.0:8000
 
 Introduction to this project:
 
