@@ -1,9 +1,9 @@
 # TwitterStream
-Homework 1 for Cloud Computing - Group 29
+Homework 2 for Cloud Computing - Group 29
 
 Note: due to the credential issue, we copy the code "without" leaking any password information, if you want to run this program, please change all the hardcode
 
-"link_credential1" - "link_credential5"
+"link_credential1" - "link_credential8"
 
 to correct keys of yourself or contact YufeiOu.
 
@@ -17,14 +17,14 @@ If it is in AWS, then:
 
 Introduction to this project:
 
-This homework is based on
+This homework is based on 
 
-  1. django python framework as the backend and frontend structure 
-  2. Twitter stream as input (random pick the tweets from the API) 
-  3. Google map as the frontend displayer.
-  
-It simply print the tweets to the map (to show where this tweet from) and you can mouseon to see the tweets content. Besides that, we use the twitter filter function to filter the tweets that contain certain keywords such as food, game or movie and display the heatmap of those tweets.
+  1. assignment1 (django python framework as the backend and frontend structure. Twitter stream as input (random pick the tweets from the API). Google map as the frontend displayer.)
+  2. SQS (tweets queue/ sentiments queue)
+  3. SNS send notification
+  4. Alchemy API to label sentiments
 
-For your convenience, an old version of this project could be seen from 
-http://ec2-35-160-155-125.us-west-2.compute.amazonaws.com:8000/TwitterStream/ 
-I will turn on this machine from 10.24 11:59 - 10.31 11:59. Take your time to view the result.
+
+For your convenience, this project could be seen from
+http://ec2-35-164-174-113.us-west-2.compute.amazonaws.com:8000/TwitterStream/
+But I will not turn on this machine until the demo due to the limitation of API access. If you want to see the result, contact YufeiOu for details.
